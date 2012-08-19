@@ -9,6 +9,8 @@ group :development, :test do
   gem 'sqlite3'
   # test suite
   gem 'rspec-rails'
+  # sport for faster tests
+  gem 'spork'
 end
 group :production do
   # PostgreSQL gem and active record adapter gem for Heroku
